@@ -1,9 +1,10 @@
 import React from 'react'
 import {heroData} from '../data'
+import { Header } from './Header';
 export const Hero = () => {
   const { title, subtitle, btnText,image } = heroData;
   return (
-    <section className="lg:h-[900px] py-12">
+    <section className="lg:h-[800px] py-12">
       <div className="container mx-auto relative h-full ">
         <div className="flex flex-col xl:flex-row items-center h-full justify-between md:py-24">
           <div className="text-center xl:text-left xl:absolute">
