@@ -6,6 +6,7 @@ module.exports = {
       secondary: "Lato",
     },
     container: {
+      center:true,
       padding: {
         DEFAULT: "1rem",
         lg: "0",

@@ -4,11 +4,11 @@ export const Navmobile = () => {
 
   return (
     
-      <ul className="flex flex-col ">
+      <ul className="flex flex-col text-center space-y-0">
         {navigationData.map((item, index) => {
           return (
-            <li kye={index} className="px-6 py-3 hover:bg-purple-600">
-              <a className="text-white group" href={item.href}>
+            <li kye={index} className="group px-6 py-3 hover:bg-purple-500 ">
+              <a className="text-white group hover:text-blue-100" href={item.href}>
                 {item.name}
               </a>
             </li>

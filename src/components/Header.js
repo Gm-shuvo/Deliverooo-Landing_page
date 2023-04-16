@@ -23,7 +23,7 @@ export const Header = () => {
             </div>
           </div>
           {isOpen ? (
-            <div className="lg:hidden absolute top-20 bg-purple-400 min-w-[400px] right-20 md:mx-10 font-blod rounded transition-all max-h-54px overflow-hidden z-10">
+            <div className="lg:hidden absolute top-20 bg-purple-400 min-w-[300px] right-10 md:mx-10 font-blod rounded-xl transition-all max-h-54px overflow-hidden z-20">
               <Navmobile />
             </div>
           ) : (

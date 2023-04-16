@@ -4,16 +4,17 @@ import {About, Copyright, Ctasection,Features, Footer, Header, Hero, Nav, Testim
 
 function App() {
   Aos.init({
-    duration: 1000,
+    duration: 1300,
     offset: 0,
   });
   return (
-    <div className="App">
+    <div className="overflow-hidden">
       <>
-        <Header/>
+        <Header />
         <Hero />
         <About />
-        <Features/>
+        <Features />
+        <Testinonials />
       </>
     </div>
   );
