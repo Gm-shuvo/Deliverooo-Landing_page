@@ -36,7 +36,7 @@ const slider = () => {
         return (
           <SwiperSlide
             key={index}
-            className="bg-white rounded-[20px] broder xl:max-w-[450px] max-h-[300px] pt-[30px] px-[35px] xl:px[70px] pb-[50px]  shadow-xl"
+            className="bg-white rounded-[20px] broder xl:max-w-full min-h-[300px] max-h-[300px] pt-[30px] px-[35px] xl:px[70px] pb-[50px]  shadow-xl"
           >
             <div className="flex items-center space-x-8">
               <img src={image} alt="" className="flex-grow-0 items-center"/>

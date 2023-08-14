@@ -5,7 +5,7 @@ import Slider from '../utils/slider';
 // import { Pagination } from 'swiper';
 export const TestimonialSlider = () => {
   return (
-    <div className="flex items-center min-h-[200px] min-w-[100px]">
+    <div className="flex items-center min-h-[400px] w-full md:w-[50%]">
       <Slider/>
     </div>
     
